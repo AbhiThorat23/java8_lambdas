@@ -9,11 +9,11 @@ package com.learntocode.lambdaWithMultiThreading;
  * @author Abhijit Thorat
  *
  */
-public class MultiThreadingDemoUsingLambdaExpression {
+public class MultiThreadingDemoUsingMethodRefernce {
 
 	public static void main(String[] args) {
 
-		Thread t = new Thread(MultiThreadingDemoUsingLambdaExpression::childThreadMethod);
+		Thread t = new Thread(MultiThreadingDemoUsingMethodRefernce::childThreadMethod);
 
 		t.start();// calling child thread starts
 
